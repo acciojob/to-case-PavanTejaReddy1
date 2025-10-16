@@ -1,5 +1,5 @@
 function toCase(text) {
-	return text.toUpperCase();
+	return `${text}-${text.toUpperCase()}`;
 }
 
 // DO not change the code below
